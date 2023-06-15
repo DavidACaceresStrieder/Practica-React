@@ -12,10 +12,8 @@ export const getGifs = async ( category )=>
         height : img.images.downsized_medium.height,
         width : img.images.downsized_medium.width
 
-    }))
-
-    console.log(data);
-
+    }));
+    
     return gifs;
 }
  
